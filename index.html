@@ -10,7 +10,7 @@
   <body class="container">
     <header id="header" class="header">
       <img id="header-img"/>
-       <nav id="nav-bar">
+       <nav id="nav-bar" class=" navbar sticky-top">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
              <a class="nav-link" href="#">Link</a>
@@ -32,6 +32,14 @@
       <source src="mov_bbb.ogg" type="video/ogg">
       Your browser does not support HTML video.
     </video>
+
+    <form id="form">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email here">
+      </div>
+      <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
